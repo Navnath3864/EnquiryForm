@@ -11,9 +11,10 @@ public class EnquiryFormApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EnquiryFormApplication.class, args);
 		
-	}
+	}  
+	
 	@Bean
-	//@LoadBalanced
+	//@LoadBalanced 
 	public RestTemplate rt() 
 	{
 		return new RestTemplate();
